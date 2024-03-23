@@ -68,7 +68,7 @@ const Homelist = () => {
         <div className="w-full bg-[rgba(48,43,87,1)] h-[1px]"></div>
 
 
-      <div className=' h-full bg-[rgba(7,0,23,0.99)] grid grid-cols-4 ms-1 p-1 me-1'>
+      <div className=' h-full bg-[rgba(7,0,23,0.99)] grid grid-cols-3 ms-1 p-1 me-1'>
           {data.map((anime) => <Animetile anime={anime} key={anime.title + anime.episode} /> )}
       </div>
 
