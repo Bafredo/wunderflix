@@ -15,7 +15,7 @@ export const AppContext = ({children}) => {
     }
 
     useEffect(() => {
-        fetch('https://wjb0t842-5000.uks1.devtunnels.ms/')
+        fetch('https://animeapi-7l5z.onrender.com/')
         .then(res => res.json())
         .then(data => setData(data))
         .catch(err => console.log(err))
