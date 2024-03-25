@@ -37,7 +37,7 @@ const Navbar = () => {
         }
         <h1 className='text-xl font-bold basis-2/14 cursor-pointer justify-start' onClick={() => { navigate('/') }}>WunderFlix</h1>
         <form className='mx-1 bg-gray-900 p-2 basis-9/14 w-[50%] flex align-center justify-center'>
-            <input className='outline-none bg-gray-800 w-full px-4' type='text' placeholder='Search anime'/>
+            <input className='outline-none bg-gray-800 w-full px-4 rounded-[10px]' type='text' placeholder='Search anime'/>
             <button className='mx-1 border-stone-500 border-double px-1'>Filter</button>
         </form>
 
